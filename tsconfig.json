@@ -1,0 +1,12 @@
+{
+  "extends": "@ribajs/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "types": ["jest", "jest-extended"]
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.d.ts",
+    "infra/schematics/"
+  ]
+}

@@ -80,7 +80,8 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+/dist
+/demos/*/**/dist
 
 # Gatsby files
 .cache/
@@ -102,3 +103,20 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Yarn not using Zero-Installs see https://next.yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+/demos/*/.yarn/*
+!/demos/*/.yarn/releases
+!/demos/*/.yarn/plugins
+!/demos/*/.yarn/sdks
+!/demos/*/.yarn/versions
+
+# Typescript
+*.tsbuildinfo 

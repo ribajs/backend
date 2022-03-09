@@ -1,0 +1,13 @@
+{
+  "extends": "@ribajs/tsconfig",
+  "compilerOptions": {
+    "outDir": "assets",
+    "baseUrl": "."
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.d.ts",
+    "assets",
+    "deno-api.ts"
+  ]
+}
