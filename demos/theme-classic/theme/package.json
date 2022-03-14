@@ -9,7 +9,7 @@
     "build": "npm run lint && webpack --color --env production",
     "build:dev": "webpack --color --env development",
     "watch": "webpack --color --watch --env development",
-    "lint": "eslint scripts --ext .js,.jsx,.ts,.tsx --fix && tsc --noEmit"
+    "lint": "eslint scripts --ext .js,.jsx,.ts,.tsx,.cts,.mts --fix && tsc --noEmit"
   },
   "repository": {
     "type": "git",

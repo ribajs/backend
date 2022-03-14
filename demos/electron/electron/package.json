@@ -14,7 +14,7 @@
     "watch": "run-p watch:main watch:riba watch:electron",
     "start": "electron dist/main.js",
     "clear": "rm -rf ./dist",
-    "lint": "eslint src --ext .js,.jsx,.ts,.tsx --fix && tsc --noEmit",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx,.cts,.mts --fix && tsc --noEmit",
     "test": "jest"
   },
   "files": [
