@@ -29,10 +29,10 @@
     "Nest.js"
   ],
   "scripts": {
-    "test": "jest --config=jest.config.js",
-    "test:watch": "jest --config=jest.config.js --watch",
-    "test:clear": "jest --config=jest.config.js --clearCache",
-    "test:migrate": "ts-jest config:migrate jest.config.js",
+    "test": "jest --config=jest.config.cjs",
+    "test:watch": "jest --config=jest.config.cjs --watch",
+    "test:clear": "jest --config=jest.config.cjs --clearCache",
+    "test:migrate": "ts-jest config:migrate jest.config.cjs",
     "lint": "yarn workspaces foreach --from '{@ribajs/nest-lunr,@ribajs/nest-theme,@ribajs/node-graphql-client,@ribajs/node-ssr}' run lint",
     "build": "yarn workspaces foreach --from '{@ribajs/nest-lunr,@ribajs/nest-theme,@ribajs/node-graphql-client,@ribajs/node-ssr}' run build",
     "clean": "yarn workspaces foreach --from '{@ribajs/nest-lunr,@ribajs/nest-theme,@ribajs/node-graphql-client,@ribajs/node-ssr}' run clean",

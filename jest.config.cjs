@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 module.exports = {
   testEnvironment: "jsdom",
-  moduleFileExtensions: ["js", "json", "ts", "tsx"],
+  moduleFileExtensions: ["js", "json", "ts", "tsx", "cjs", "cts"],
   resetModules: true,
   transform: {
     "^.+\\.tsx?$": require.resolve("ts-jest"),
@@ -19,7 +19,7 @@ module.exports = {
   setupFilesAfterEnv: [require.resolve("jest-extended/all")],
   globals: {
     "ts-jest": {
-      babelConfig: "./babel.config.js",
+      babelConfig: require("./babel.config.cjs"),
       tsconfig: "./tsconfig.spec.json",
       isolatedModules: true,
     },
