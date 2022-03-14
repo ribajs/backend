@@ -3412,6 +3412,7 @@ __metadata:
     "@babel/preset-typescript": ^7.16.7
     "@babel/runtime": ^7.17.2
     "@babel/runtime-corejs3": ^7.17.2
+    "@jest/globals": ^27.5.1
     "@ribajs/eslint-config": "workspace:^"
     "@ribajs/events": "workspace:^"
     "@ribajs/history": "workspace:^"
@@ -3962,6 +3963,7 @@ __metadata:
     "@babel/preset-typescript": ^7.16.7
     "@babel/runtime": ^7.17.2
     "@babel/runtime-corejs3": ^7.17.2
+    "@jest/globals": ^27.5.1
     "@ribajs/cache": "workspace:^"
     "@ribajs/core": "workspace:^"
     "@ribajs/eslint-config": "workspace:^"
@@ -4149,6 +4151,7 @@ __metadata:
     "@babel/preset-typescript": ^7.16.7
     "@babel/runtime": ^7.17.2
     "@babel/runtime-corejs3": ^7.17.2
+    "@jest/globals": ^27.5.1
     "@ribajs/babel-config": "workspace:^"
     "@ribajs/core": "workspace:^"
     "@ribajs/eslint-config": "workspace:^"
@@ -4164,6 +4167,7 @@ __metadata:
     eslint-plugin-prettier: ^4.0.0
     jest: ^27.5.1
     jest-extended: ^2.0.0
+    jest-ts-webcompat-resolver: ^1.0.0
     moment: ^2.29.1
     prettier: 2.5.1
     ts-jest: ^27.1.3
