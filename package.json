@@ -109,6 +109,9 @@
     "!vendor/riba/infra/doc",
     "!vendor/riba/infra/schematics"
   ],
+  "resolutions": {
+    "node-sass": "npm:sass@^1.49.9"
+  },
   "dependencies": {
     "pug": "^3.0.2"
   },
