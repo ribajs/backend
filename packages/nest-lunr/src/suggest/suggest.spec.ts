@@ -1,8 +1,8 @@
 import { Suggest } from './suggest';
 import { Storage, Dictionary } from './types';
-import * as big from '../../test/big.json';
-import * as PERF1 from '../../test/perf1.json';
-import * as PERF2 from '../../test/perf2.json';
+import big from '../../test/big.json';
+import PERF1 from '../../test/perf1.json';
+import PERF2 from '../../test/perf2.json';
 
 function quality(name: string) {
   const dict      = new Suggest();

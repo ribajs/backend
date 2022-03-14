@@ -3171,6 +3171,7 @@ __metadata:
     jest: ^27.5.1
     jest-config: ^27.5.1
     jest-extended: ^2.0.0
+    jest-ts-webcompat-resolver: ^1.0.0
     pkg-dir: ^6.0.1
     prettier: 2.5.1
     pug: ^3.0.2
@@ -4217,6 +4218,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ribajs/nest-lunr@workspace:packages/nest-lunr"
   dependencies:
+    "@babel/runtime": ^7.17.2
     "@nestjs/cli": ^8.2.2
     "@nestjs/common": ^8.4.0
     "@nestjs/core": ^8.4.0
@@ -4236,6 +4238,7 @@ __metadata:
     eslint: ^8.10.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-prettier: ^4.0.0
+    express: ^4.17.3
     jest: ^27.5.1
     jest-config: ^27.5.1
     jest-extended: ^2.0.0
@@ -16746,6 +16749,15 @@ __metadata:
     pretty-format: ^27.5.1
     semver: ^7.3.2
   checksum: a5cfadf0d21cd76063925d1434bc076443ed6d87847d0e248f0b245f11db3d98ff13e45cc03b15404027dabecd712d925f47b6eae4f64986f688640a7d362514
+  languageName: node
+  linkType: hard
+
+"jest-ts-webcompat-resolver@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "jest-ts-webcompat-resolver@npm:1.0.0"
+  peerDependencies:
+    jest-resolve: "*"
+  checksum: 649984e6b38afe96783316993d75d7385520158ef4bcca67941fe1e96589aa4d612254e3da4046f44df8d067d6a913c0b71daa26b363d560787778d7458d9563
   languageName: node
   linkType: hard
 
