@@ -34,7 +34,6 @@ module.exports = {
    * @see https://github.com/facebook/jest/issues/8114#issuecomment-475068766
    */
   modulePathIgnorePatterns: [
-    "<rootDir>/infra",
     "<rootDir>/demos/electron",
     "<rootDir>/demos/electron-nest",
   ],
